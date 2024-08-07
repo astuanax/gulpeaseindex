@@ -1,0 +1,18 @@
+[package]
+name = "gulpeaseindex"
+version = "0.1.0"
+edition = "2021"
+description = "Calculate Gulpease index for a given text and language."
+repository = "https://github.com/astuanax/gulpeaseindex"
+license = "MIT"
+keywords = ["textanalysis", "readability", "Gulpease", "languages"]
+
+
+[lib]
+name = "gulpeaseindex"
+path = "src/lib.rs"
+
+
+
+[dependencies]
+regex = "1.10.6"
